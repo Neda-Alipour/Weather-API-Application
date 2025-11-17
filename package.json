@@ -1,0 +1,26 @@
+{
+  "name": "weather-api-application",
+  "version": "1.0.0",
+  "description": "This is a Capstone Project 2 for the \"The Complete 2023 Web Development Bootcamp - Angela Yu\" course.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neda-Alipour/Weather-API-Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neda-Alipour/Weather-API-Application/issues"
+  },
+  "homepage": "https://github.com/Neda-Alipour/Weather-API-Application#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
