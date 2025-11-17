@@ -6,6 +6,12 @@
     <title>Wether API</title>
 </head>
 <body>
-Hello
+        <% if (locals.data) { %>
+        <h2>Current Weather</h2>
+        <p>Temperature: <%= data.current.temp %>°C</p>
+        <p>Humidity: <%= data.current.humidity %>%</p>
+        <p>Wind Speed: <%= data.current.wind_speed %> m/s</p>
+        <p>Weather: <%= data.current.weather[0].description %></p>
+    <% } %>
 </body>
 </html>
